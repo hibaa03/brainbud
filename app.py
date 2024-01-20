@@ -5,12 +5,10 @@ import os
 from dotenv import load_dotenv
 from PIL import Image
 
-# Load environment variables
+# Loading environment variables
 load_dotenv()
 clarifai_pat = os.getenv("CLARIFAI_PAT")
 openai_api_key = os.getenv("OPEN_AI")
-
-
 
 
 if 'chapters' not in st.session_state:
@@ -73,7 +71,7 @@ def generate_related_image(keyword):
     image_base64 = model_prediction.outputs[0].data.image.base64
     return image_base64
 
-
+# practice questions
 def process_practice_questions(questions):
     grouped_questions = []
     current_question = []
