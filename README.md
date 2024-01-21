@@ -7,3 +7,6 @@ Dynamic Chapter Selection: The app generates a list of chapters for each subject
 AI-Generated Study Material: Using Clarifai's GPT-4 Turbo model, BrainBud creates relevant study content for the chosen chapters.
 Interactive Practice Questions: The app generates practice quiz questions to reinforce learning.
 Visual Learning Aids: Incorporates DALL-E image generation for visual support.
+
+
+for UI Module https://github.com/hibaa03/brain-bud/tree/main
